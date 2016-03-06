@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <title>FilmUp | Register Page</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+
+    <!-- ================== BEGIN BASE CSS STYLE ================== -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="assets/plugins/jquery-ui/themes/base/minified/jquery-ui.min.css" rel="stylesheet" />
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.min.css" rel="stylesheet" />
+    <link href="assets/css/style-admin.css" rel="stylesheet" />
+    <link href="assets/css/style-responsive-admin.css" rel="stylesheet" />
+    <link href="assets/css/theme/blue.css" rel="stylesheet" id="theme" />
+    <!-- ================== END BASE CSS STYLE ================== -->
+
+</head>
+<body class="pace-top bg-white">
+<!-- begin #page-loader -->
+<div id="page-loader" class="fade in"><span class="spinner"></span></div>
+<!-- end #page-loader -->
+
+<!-- begin #page-container -->
+<div id="page-container" class="fade">
+    <!-- begin register -->
+    <div class="register register-with-news-feed">
+        <!-- begin news-feed -->
+        <div class="news-feed">
+            <div class="news-image">
+                <img src="https://s3.amazonaws.com/filmup-assets/bg.jpg" alt="" />
+            </div>
+            <div class="news-caption text-justify">
+                <img src="assets/img/FilmUp_Logo_Knockout_White.png" alt="Home" style="width:500px;" />
+            </div>
+        </div>
+        <!-- end news-feed -->
+        <!-- begin right-content -->
+        <div class="right-content">
+            <!-- begin register-header -->
+            <h1 class="register-header">
+                Sign Up - Student
+                <small>Create your FilmUp Student Account. </small>
+            </h1>
+            <!-- end register-header -->
+            <!-- begin register-content -->
+            <div class="register-content">
+                <form id="signupForm" action="index.html" method="POST" class="margin-bottom-0" data-parsley-validate>
+                    <label class="control-label">Name</label>
+                    <div class="row row-space-10">
+                        <div class="col-md-6 m-b-15">
+                            <input id="fName" type="text" class="form-control" placeholder="First name" data-parsley-required="true"/>
+                        </div>
+                        <div class="col-md-6 m-b-15">
+                            <input id="lName" type="text" class="form-control" placeholder="Last name" data-parsley-required="true" />
+                        </div>
+                    </div>
+                    <label class="control-label">Email</label>
+                    <div class="row m-b-15">
+                        <div class="col-md-12">
+                            <input id="email" type="text" class="form-control" placeholder="Email address" data-parsley-type="email" data-parsley-required="true"/>
+                        </div>
+                    </div>
+                    <label class="control-label">Location</label>
+                    <div class="row m-b-15">
+                        <div class="col-md-12">
+                            <input id="location" type="text" class="form-control" placeholder="Your immediate location eg. City/Town" data-parsley-required="true"/>
+                        </div>
+                    </div>
+                    <label class="control-label">What do you study</label>
+                    <div class="row m-b-15">
+                        <div class="col-md-12">
+                            <input id="major" type="text" class="form-control" placeholder="What did you study?" data-parsley-required="true"/>
+                        </div>
+                    </div>
+                    <label class="control-label">School Name</label>
+                    <div class="row m-b-15">
+                        <div class="col-md-12">
+                            <select id="school" class="form-control">
+                                <option value="Academy of Art University">Academy of Art University</option>
+                                <option value="American Film Institute">American Film Institute</option>
+                                <option value="American University">American University</option>
+                                <option value="Arizona State University">Arizona  State University</option>
+                                <option value="Berkeley Digital Film Institute">Berkeley Digital Film Institute</option>
+                                <option value="Blue Ridge Community College">Blue Ridge Community College</option>
+                                <option value="Boston University">Boston University</option>
+                                <option value="Brooklyn  College">Brooklyn  College</option>
+                                <option value="Brooks Institute of Photography">Brooks Institute of Photography</option>
+                                <option value="Buffalo State College">Buffalo State College</option>
+                                <option value="California College of the Arts">California College of the Arts</option>
+                                <option value="California Institute of the Arts">California Institute of the Arts</option>
+                                <option value="California State University, Fullerton">California State University, Fullerton</option>
+                                <option value="California State University, Long Beach">California State University, Long Beach</option>
+                                <option value="California State University, Los Angeles">California State University, Los Angeles</option>
+                                <option value="California State University, Northridge">California State University, Northridge</option>
+                                <option value="Chapman University">Chapman University</option>
+                                <option value="City College  of New York">City College  of New York</option>
+                                <option value="City College of San Francisco">City College  of San Francisco</option>
+                                <option value="College of Staten Island">College of Staten Island</option>
+                                <option value="Columbia College">Columbia College</option>
+                                <option value="Columbia College Hollywood">Columbia College Hollywood</option>
+                                <option value="Columbia University School of the Arts">Columbia University School of the Arts</option>
+                                <option value="Community College of Aurora">Community College of Aurora</option>
+                                <option value="Cornell University">Cornell University</option>
+                                <option value="DePaul University">DePaul University</option>
+                                <option value="Digital Film Academy">Digital Film Academy</option>
+                                <option value="East Coast Film Institute">East Coast Film Institute</option>
+                                <option value="Emerson College">Emerson College</option>
+                                <option value="Filmtech">Filmtech</option>
+                                <option value="Fitchburg State University">Fitchburg State University</option>
+                                <option value="Florida State University">Florida State University</option>
+                                <option value="Fort Hays State University">Fort Hays State University</option>
+                                <option value="Full Sail University">Full Sail University</option>
+                                <option value="George Fox University">George Fox University</option>
+                                <option value="Global Cinematography Institute">Global Cinematography Institute</option>
+                                <option value="Grand Valley State University">Grand Valley State University</option>
+                                <option value="Howard University">Howard University</option>
+                                <option value="Hunter College">Hunter College</option>
+                                <option value="Ithaca College">Ithaca College</option>
+                                <option value="Kingsborough Community College">Kingsborough Community College</option>
+                                <option value="Long Island University">Long Island University</option>
+                                <option value="Los Angeles Film School">Los Angeles Film School</option>
+                                <option value="Loyola Marymount University">Loyola Marymount University"</option>
+                                <option value="Massachusetts College of Art and Design">Massachusetts College of Art and Design</option>
+                                <option value="Minnesota State University Moorhead">Minnesota State University Moorhead</option>
+                                <option value="Missouri State University">Missouri State University</option>
+                                <option value="Montana State University">Montana State University</option>
+                                <option value="Montclair State University">Montclair State University</option>
+                                <option value="New York Film Academy">New York Film Academy</option>
+                                <option value="New York Film Academy">New York Film Academy</option>
+                                <option value="Northwestern University">Northwestern University</option>
+                                <option value="Ohio University">Ohio University</option>
+                                <option value="Oklahoma City University">Oklahoma City Universit</option>
+                                <option value="Old Dominion University">Old Dominion University</option>
+                                <option value="Piedmont Community College">Piedmont Community College</option>
+                                <option value="Prince of Prestige Academy">Prince of Prestige Academy</option>
+                                <option value="Ringling College  of Art and Design">Ringling College  of Art and Design</option>
+                                <option value="Rochester Institute of Technology">Rochester Institute of Technology</option>
+                                <option value="Sacred Heart University">Sacred Heart University</option>
+                                <option value="San Diego State University">San Diego State University</option>
+                                <option value="San Francisco Art Institute">San Francisco Art Institute</option>
+                                <option value="San Francisco State University">San Francisco State University</option>
+                                <option value="San Jose State University">San Jose State University</option>
+                                <option value="Santa Fe University of Art and Design">Santa Fe University of Art and Design</option>
+                                <option value="Savannah College of Art and Design">Savannah College of Art and Design</option>
+                                <option value="School of the Art Institute  of Chicago">chool of the Art Institute  of Chicago</option>
+                                <option value="Southern  Arkansas University Tech">Southern  Arkansas University Tech</option>
+                                <option value="Southern Illinois University Carbondale">Southern Illinois University Carbondale</option>
+                                <option value="The Arts Institutes">The Arts Institutes</option>
+                                <option value="TheFilmSchool">TheFilmSchool</option>
+                                <option value="Towson University">Towson University</option>
+                                <option value="Tribeca Flashpoint Media Arts Academy">ribeca Flashpoint Media Arts Academy</option>
+                                <option value="University of Arizona">University of Arizona</option>
+                                <option value="University of California, Los Angeles">University of California, Los Angeles</option>
+                                <option value="University of Central Arkansas">University of Central Arkansas</option>
+                                <option value="University of Central Florida">niversity of Central Florida</option>
+                                <option value="University of Colorado at Boulder">University of Colorado at Boulder</option>
+                                <option value="University of Colorado Denver">University of Colorado Denver</option>
+                                <option value="University of Illinois at Urbana–Champaign">University of Illinois at Urbana–Champaign</option>
+                                <option value="University of Iowa">University of Iowa</option>
+                                <option value="University of Miami">University of Miami</option>
+                                <option value="University of North Alabama">University of North Alabama</option>
+                                <option value="University of North Carolina at Greensboro">University of North Carolina at Greensboro</option>
+                                <option value="University of North Texas">University of North Texas</option>
+                                <option value="University of Southern California">University of Southern California</option>
+                                <option value="University of Southern Mississippi">University of Southern Mississippi</option>
+                                <option value="University of Texas">University of Texas</option>
+                                <option value="Virginia Commonwealth University">Virginia Commonwealth University</option>
+                                <option value="Webster University">Webster University</option>
+                                <option value="Wesleyan University">Wesleyan University</option>
+                                <option value="Western Carolina University">Western Carolina University</option>
+                                <option value="Yavapai College">Yavapai College</option>
+                            </select>
+                        </div>
+                    </div>
+                    <label class="control-label">Password</label>
+                    <div class="row m-b-15">
+                        <div class="col-md-12">
+                            <input id="password" type="password" class="form-control" data-parsley-minlength="6" placeholder="Password" data-parsley-required="true"/>
+                        </div>
+                    </div>
+
+                    <div class="checkbox m-b-30">
+                        <label>
+                            <input type="checkbox" name="confirm" required/> By clicking Sign Up, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use</a>.
+                        </label>
+                    </div>
+                    <div class="register-buttons">
+                        <button type="submit" class="btn btn-primary btn-block btn-lg">Sign Up</button>
+                    </div>
+                    <div class="m-t-20 m-b-40 p-b-40">
+                        Already a member? Click <a href="login.html" >here</a> to login.
+                    </div>
+                </form>
+            </div>
+            <!-- end register-content -->
+        </div>
+        <!-- end right-content -->
+    </div>
+    <!-- end register -->
+</div>
+<!-- end page container -->
+
+<!-- ================== BEGIN BASE JS ================== -->
+<script src="assets/plugins/jquery/jquery-1.9.1.min.js"></script>
+<script src="assets/plugins/jquery/jquery-migrate-1.1.0.min.js"></script>
+<script src="assets/plugins/jquery-ui/ui/minified/jquery-ui.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/plugins/jquery-cookie/jquery.cookie.js"></script>
+<!-- ================== END BASE JS ================== -->
+
+<!-- ================== BEGIN PAGE LEVEL JS ================== -->
+<script src="assets/plugins/parsley/dist/parsley.js"></script>
+<script src="assets/js/apps-backend.js"></script>
+<script src="assets/plugins/stormpath.js"></script>
+<script src="assets/js/auth.js"></script>
+<!-- ================== END PAGE LEVEL JS ================== -->
+
+<script>
+    $(document).ready(function() {
+        App.init();
+    });
+</script>
+</body>
+</html>

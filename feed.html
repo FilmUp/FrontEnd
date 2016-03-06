@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <title>Filmup | Make your film matter</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+
+    <!-- ================== BEGIN BASE CSS STYLE ================== -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="assets/plugins/jquery-ui/themes/base/minified/jquery-ui.min.css" rel="stylesheet" />
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.min.css" rel="stylesheet" />
+    <link href="assets/css/style-admin.css" rel="stylesheet" />
+    <link href="assets/css/style-responsive-admin.css" rel="stylesheet" />
+    <link href="assets/css/theme/blue.css" rel="stylesheet" id="theme" />
+    <!-- ================== END BASE CSS STYLE ================== -->
+
+    <!-- ================== BEGIN PAGE LEVEL CSS STYLE ================== -->
+    <link href="assets/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" />
+    <link href="assets/plugins/bootstrap-calendar/css/bootstrap_calendar.css" rel="stylesheet" />
+    <link href="assets/plugins/gritter/css/jquery.gritter.css" rel="stylesheet" />
+    <link href="assets/plugins/morris/morris.css" rel="stylesheet" />
+    <!-- ================== END PAGE LEVEL CSS STYLE ================== -->
+</head>
+<body>
+
+<!-- begin #page-container -->
+<div id="page-container" class="fade page-sidebar-fixed page-header-fixed">
+    <!-- begin #header -->
+    <div id="header" class="header navbar  navbar-fixed-top">
+        <!-- begin container-fluid -->
+        <div class="container-fluid">
+            <!-- begin mobile sidebar expand / collapse button -->
+            <div class="navbar-header">
+                <a href="feed.html" class="navbar-brand"><img src="http://dev.filmup.co:8080/assets/FilmUp_Logo_Knockout_White_320x132.png" height="32px"></a>
+                <button type="button" class="navbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- end mobile sidebar expand / collapse button -->
+
+            <!-- begin header navigation right -->
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="feed.html"  class="f-s-14" title="Home">
+                        <img src="http://dev.filmup.co:8080/assets/nav/FilmUp_Web_Feed_Home_Graphic_Gray.png" height="25px">
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html" class=" f-s-14" title="Profile">
+                        <img src="http://dev.filmup.co:8080/assets/nav/FilmUp_Web_Feed_Profile_Graphic_Gray.png" height="25px">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="f-s-14" title="Messaging">
+                        <img src="http://dev.filmup.co:8080/assets/nav/FilmUp_Web_Feed_Messaging_Graphic_Gray.png" height="25px">
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:;" data-toggle="dropdown" class="dropdown-toggle f-s-14">
+                        MENU
+                    </a>
+                    <ul class="dropdown-menu media-list pull-right animated fadeInDown">
+                        <li class="media">
+                            <a href="feed.html">
+                                <div class="media-left"><img src="http://dev.filmup.co:8080/assets/nav/FilmUp_Web_Feed_Home_Graphic_Gray.png" height="25px"></div>
+                                <div class="media-body">
+                                    <h6 class="media-middle">Home</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="javascript:;">
+                                <div class="media-left"><img src="http://dev.filmup.co:8080/assets/nav/FilmUp_Web_Feed_ProjectSubmit_Graphic_Gray.png" height="25px" /></div>
+                                <div class="media-body">
+                                    <h6 class="media-middle">Project Submit</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="javascript:;">
+                                <div class="media-left"><img src="http://dev.filmup.co:8080/assets/nav/FilmUp_Web_Feed_Jobs_Graphic_Gray.png" height="25px" /></div>
+                                <div class="media-body">
+                                    <h6 class="media-middle">Jobs</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="javascript:;">
+                                <div class="media-left"><img src="http://dev.filmup.co:8080/assets/nav/FilmUp_Web_Feed_Connect_Graphic_Gray.png" height="25px" /></div>
+                                <div class="media-body">
+                                    <h6 class="media-middle">Connect</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="javascript:;">
+                                <div class="media-left"><img src="http://dev.filmup.co:8080/assets/nav/FilmUp_Web_Feed_Messaging_Graphic_Gray.png" height="25px"></div>
+                                <div class="media-body">
+                                    <h6 class="media-middle">Messaging</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="accountSettings.html">
+                                <div class="media-left"><img src="http://dev.filmup.co:8080/assets/nav/FilmUp_Web_Feed_Profile_Graphic_Gray.png" height="25px"></div>
+                                <div class="media-body">
+                                    <h6 class="media-middle">Account Settings</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="media">
+                            <a href="index.html">
+                                <div class="media-left"><img src="http://dev.filmup.co:8080/assets/nav/FilmUp_Web_Feed_SignOut_Graphic_Gray.png" height="25px"></div>
+                                <div class="media-body">
+                                    <h6 class="media-middle">Logout</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- end header navigation right -->
+        </div>
+        <!-- end container-fluid -->
+    </div>
+    <!-- end #header -->
+
+    <!-- begin #content -->
+    <div id="content" class="content" style="margin-left: 0px;">
+        <!-- begin row -->
+        <div class="row">
+            <!-- begin col-3 -->
+            <div class="col-md-3 col-sm-6">
+                <div class="widget widget-stats bg-blue-darker" style="height: 250px;">
+
+                </div>
+            </div>
+            <!-- end col-3 -->
+            <!-- begin col-3 -->
+            <div class="col-md-3 col-sm-6">
+                <div class="widget widget-stats bg-blue-darker" style="height: 250px;">
+
+                </div>
+            </div>
+            <!-- end col-3 -->
+            <!-- begin col-3 -->
+            <div class="col-md-3 col-sm-6">
+                <div class="widget widget-stats bg-blue-darker" style="height: 250px;">
+
+                </div>
+            </div>
+            <!-- end col-3 -->
+            <!-- begin col-3 -->
+            <div class="col-md-3 col-sm-6">
+                <div class="widget widget-stats bg-blue-darker" style="height: 250px;">
+
+                </div>
+            </div>
+            <!-- end col-3 -->
+        </div>
+        <!-- end row -->
+
+        <!-- begin row -->
+        <div class="row">
+            <div class="col-md-8">
+                <div class="widget-chart with-sidebar bg-blue-darker">
+                    <div class="widget-chart-content" data-click="panel-modal">
+                        <div id="visitors-line-chart" class="morris-inverse" style="height: 260px;"></div>
+                    </div>
+                    <div class="widget-chart-sidebar bg-blue-darker" >
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-inverse" >
+                    <div class="panel-heading bg-blue-darker">
+
+                    </div>
+                    <div id="visitors-map" class="bg-blue-darker" style="height: 320px;"></div>
+                    <div class="list-group">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end #content -->
+
+    <!-- begin scroll to top btn -->
+    <a href="javascript:;" class="btn btn-icon btn-circle btn-success btn-scroll-to-top fade" data-click="scroll-top"><i class="fa fa-angle-up"></i></a>
+    <!-- end scroll to top btn -->
+</div>
+<!-- end page container -->
+
+<!-- ================== BEGIN BASE JS ================== -->
+<script src="assets/plugins/jquery/jquery-1.9.1.min.js"></script>
+<script src="assets/plugins/jquery/jquery-migrate-1.1.0.min.js"></script>
+<script src="assets/plugins/jquery-ui/ui/minified/jquery-ui.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!--[if lt IE 9]>
+<script src="assets/crossbrowserjs/html5shiv.js"></script>
+<script src="assets/crossbrowserjs/respond.min.js"></script>
+<script src="assets/crossbrowserjs/excanvas.min.js"></script>
+<![endif]-->
+<script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="assets/plugins/jquery-cookie/jquery.cookie.js"></script>
+<!-- ================== END BASE JS ================== -->
+
+<!-- ================== BEGIN PAGE LEVEL JS ================== -->
+<script src="assets/plugins/morris/raphael.min.js"></script>
+<script src="assets/plugins/morris/morris.js"></script>
+<script src="assets/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="assets/plugins/jquery-jvectormap/jquery-jvectormap-world-merc-en.js"></script>
+<script src="assets/plugins/bootstrap-calendar/js/bootstrap_calendar.min.js"></script>
+<script src="assets/plugins/gritter/js/jquery.gritter.js"></script>
+<script type="text/javascript" src="path_to/jquery.easyModal.js"></script>
+<script src="assets/js/apps-backend.js"></script>
+<!-- ================== END PAGE LEVEL JS ================== -->
+
+<script>
+    $(document).ready(function() {
+        App.init();
+    });
+</script>
+</body>
+</html>
