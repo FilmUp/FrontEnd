@@ -120,7 +120,7 @@
 }
 /* line 13, ../sass/vex-theme-wireframe.sass */
 .vex.vex-theme-wireframe .vex-overlay {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(0, 0, 0, 0.9);
 }
 /* line 16, ../sass/vex-theme-wireframe.sass */
 .vex.vex-theme-wireframe .vex-content {
